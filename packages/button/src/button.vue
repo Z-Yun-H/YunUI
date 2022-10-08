@@ -1,13 +1,12 @@
 <script setup>
 defineProps({
   btnMsg: String,
-  btnColor:String,
-  btnBgColor:String,
 })
 </script>
 
 <template>
-  <button :class="btnColor">{{btnMsg}}</button>
+  <button :value="btnMsg" class=" bg-slate-50 text-red-300">{{btnMsg}}</button>
+  <button :value="btnMsg">{{btnMsg}}</button>
 </template>
 
 <style scoped>

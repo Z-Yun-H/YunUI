@@ -1,6 +1,6 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
-import button from './components/button'
+import { createApp } from 'vue';
+import './style.css';
+import App from './App.vue';
+import yunui from '../packages';
 
-createApp(App).use(button).mount('#app')
+createApp(App).use(yunui).mount('#app');
